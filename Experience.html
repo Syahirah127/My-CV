@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Welcome to Intan Syahirah Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "KG Red Hands", sans-serif}
+body {font-size:14px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-brown w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-large w3-display-topleft" style="width:100%;font-size:22px">My Menu</a><br>
+  <div class="w3-container">
+    <img src="images/flower.illustration.png" width="100" height="100">
+    <font color="black">
+    <h3 class="w3-padding-61"><b>Intan<br>Syahirah</b></h3>
+  </div></font>
+  <div class="w3-bar-block">
+   <a href="indeks.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <a href="Summary.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Summary</a> 
+    <a href="Experience.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Experiences</a> 
+    <a href="objektif.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Objectives</a> 
+    <a href="education.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Education</a> 
+    <a href="Curricular.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Curricular</a>
+    <a href="Skillss.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Skills</a>
+    <a href="references.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">References</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-black w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>Intan Syahirah</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px"><body background="images/bg3.jpg">
+<audio controls autoplay>
+  <source src="music/Dreams.mp3" type="audio/mpeg">
+</audio>
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:5px" id="My Biodata">
+    <h1 class="w3-jumbo"><marquee behavior="alternate"><b>Experiences</b></marquee></h1>
+  </div>
+  
+  <!-- Photo grid (modal) -->
+ <div class="w3-row-padding">
+    <div class="w3-half">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.image {
+  display: block;
+  width: 70%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 70%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+</style>
+
+<div class="container">
+  <img src="images/cv.jpeg" alt="Avatar" class="image">
+  <div class="overlay">Hello, I'm Intan Syahirah</div>
+</div>
+    </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-brown" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-brown w3-xxxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Work Experiences -->
+  <div class="w3-container" id="Work Experiences" style="margin-top:75px">
+   <h1 class="w3-xxxlarge w3-text-brown"><b>Work Experiences.</b></h1>
+    <hr style="width:50px;border:5px solid black" class="w3-round">
+    <br>
+  <style>
+table {
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 15px;
+}
+
+tr:nth-child(n){background-color: #c7a885}
+
+th {
+  background-color: #808080;
+  color: black;
+}
+</style>
+
+<font size="3">
+<table>
+  <tr>
+    <th><h3>Position</h3></th>
+    <th><h3>Employers</h3></th>
+    <th><h3>Period</h3></th>
+  </tr>
+  <tr>
+    <td>Part-Time Brand Promoter</td>
+    <td>Cheetah Corporation (M) Sdn Bhd</td>
+    <td>January 2020-March 2020</td>
+  </tr>
+  <tr>
+    <td>Customer Service Associate</td>
+    <td>The Lion Group</td>
+    <td>November 2020-March 2021</td>
+  </tr>
+      
+</tr></font>
+</table>
+
+<head>
+<style>
+div.b {
+  line-height: 1.6;
+}
+</style></head>
+
+<div class="b w3-container" id="Work Experiences" style="margin-top:75px" align="justify">
+  <font size="4">
+   While working, I have absorbed a lot of new skills and knowledge, which makes me more courageous to try something new. Working in the field of dealing with clients makes the way I communicate with people better day by day. My confidence is also growing because the job of a promoter and customer service is to always convince customers of good things. Because I easily adapt to new environments, I am now an increasingly focused person with dreams and goals for the jobs and tasks I face.
+   </font>
+  </div>
+
+ <!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<div class="w3-grey w3-container w3-padding-32" style="margin-top:100px;padding-right:58px"><p class="w3-right"><font size="2">Developed by Intan Syahirah© 2021</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
